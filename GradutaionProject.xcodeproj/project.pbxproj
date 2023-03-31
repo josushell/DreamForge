@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136809F4A40FA2177F34D5F9 /* Pods_GradutaionProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */; };
 		E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD229D3D69C00AC579F /* AppDelegate.swift */; };
 		E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */; };
 		E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD629D3D69C00AC579F /* ViewController.swift */; };
 		E8FADBDA29D3D69C00AC579F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBD829D3D69C00AC579F /* Main.storyboard */; };
 		E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDB29D3D69E00AC579F /* Assets.xcassets */; };
 		E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */; };
+		E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE729D3D6FA00AC579F /* OCR.swift */; };
+		E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */; };
+		E8FADBEC29D3D76200AC579F /* textImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBEB29D3D76200AC579F /* textImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392F8D1E58D347E775928542 /* Pods-GradutaionProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.release.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.release.xcconfig"; sourceTree = "<group>"; };
+		7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.debug.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E8FADBCF29D3D69C00AC579F /* GradutaionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradutaionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FADBD229D3D69C00AC579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		E8FADBDB29D3D69E00AC579F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FADBDE29D3D69E00AC579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8FADBE029D3D69E00AC579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FADBE729D3D6FA00AC579F /* OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestViewController.swift; sourceTree = "<group>"; };
+		E8FADBEB29D3D76200AC579F /* textImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textImage.png; sourceTree = "<group>"; };
+		F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradutaionProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136809F4A40FA2177F34D5F9 /* Pods_GradutaionProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51E9B4A22AFE5B5042B0E9D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89FDF80BD7B2FDDB263B40F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */,
+				392F8D1E58D347E775928542 /* Pods-GradutaionProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E8FADBC629D3D69C00AC579F = {
 			isa = PBXGroup;
 			children = (
+				E8FADBE629D3D6EB00AC579F /* Module */,
 				E8FADBD129D3D69C00AC579F /* GradutaionProject */,
 				E8FADBD029D3D69C00AC579F /* Products */,
+				89FDF80BD7B2FDDB263B40F1 /* Pods */,
+				51E9B4A22AFE5B5042B0E9D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +93,19 @@
 				E8FADBD829D3D69C00AC579F /* Main.storyboard */,
 				E8FADBDB29D3D69E00AC579F /* Assets.xcassets */,
 				E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */,
+				E8FADBEB29D3D76200AC579F /* textImage.png */,
 				E8FADBE029D3D69E00AC579F /* Info.plist */,
+				E8FADBE729D3D6FA00AC579F /* OCR.swift */,
+				E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */,
 			);
 			path = GradutaionProject;
+			sourceTree = "<group>";
+		};
+		E8FADBE629D3D6EB00AC579F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8FADBE329D3D69E00AC579F /* Build configuration list for PBXNativeTarget "GradutaionProject" */;
 			buildPhases = (
+				0C26091F8FCF17953AD7CB1B /* [CP] Check Pods Manifest.lock */,
 				E8FADBCB29D3D69C00AC579F /* Sources */,
 				E8FADBCC29D3D69C00AC579F /* Frameworks */,
 				E8FADBCD29D3D69C00AC579F /* Resources */,
+				6E70A903E74C626624ED6ECF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FADBEC29D3D76200AC579F /* textImage.png in Resources */,
 				E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */,
 				E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */,
 				E8FADBDA29D3D69C00AC579F /* Main.storyboard in Resources */,
@@ -133,14 +177,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C26091F8FCF17953AD7CB1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradutaionProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E70A903E74C626624ED6ECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8FADBCB29D3D69C00AC579F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */,
 				E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */,
 				E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */,
 				E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */,
+				E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +370,7 @@
 		};
 		E8FADBE429D3D69E00AC579F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		E8FADBE529D3D69E00AC579F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392F8D1E58D347E775928542 /* Pods-GradutaionProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
