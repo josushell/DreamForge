@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		136809F4A40FA2177F34D5F9 /* Pods_GradutaionProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */; };
+		E882E98029E594EC00B5FAE5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E97F29E594EC00B5FAE5 /* Network.swift */; };
+		E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E98129E5976900B5FAE5 /* DataClass.swift */; };
 		E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD229D3D69C00AC579F /* AppDelegate.swift */; };
 		E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */; };
 		E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD629D3D69C00AC579F /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		392F8D1E58D347E775928542 /* Pods-GradutaionProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.release.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.release.xcconfig"; sourceTree = "<group>"; };
 		7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.debug.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E882E97F29E594EC00B5FAE5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E882E98129E5976900B5FAE5 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
 		E8FADBCF29D3D69C00AC579F /* GradutaionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradutaionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FADBD229D3D69C00AC579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		E8FADBE629D3D6EB00AC579F /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E882E97F29E594EC00B5FAE5 /* Network.swift */,
+				E882E98129E5976900B5FAE5 /* DataClass.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 			files = (
 				E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */,
 				E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */,
+				E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */,
+				E882E98029E594EC00B5FAE5 /* Network.swift in Sources */,
 				E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */,
 				E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */,
 				E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */,

@@ -6,6 +6,9 @@ target 'GradutaionProject' do
   use_frameworks!
 #  pod 'GoogleMLKit/TextRecognitionKorean', '3.2.0'
   pod 'SnapKit', '~> 5.6.0'
+  pod 'Alamofire'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
   # Pods for GradutaionProject
 
 end

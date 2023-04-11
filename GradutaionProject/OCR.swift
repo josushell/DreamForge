@@ -70,6 +70,8 @@ class VisionViewController: UIViewController{
 
             DispatchQueue.main.async {
                 self?.label.text = text
+                
+                Network().translateKoTOEn(text: text)
             }
         }
    
