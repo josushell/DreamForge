@@ -12,13 +12,39 @@
 		E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E98129E5976900B5FAE5 /* DataClass.swift */; };
 		E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD229D3D69C00AC579F /* AppDelegate.swift */; };
 		E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */; };
-		E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD629D3D69C00AC579F /* ViewController.swift */; };
-		E8FADBDA29D3D69C00AC579F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBD829D3D69C00AC579F /* Main.storyboard */; };
 		E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDB29D3D69E00AC579F /* Assets.xcassets */; };
 		E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */; };
 		E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE729D3D6FA00AC579F /* OCR.swift */; };
 		E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */; };
 		E8FADBEC29D3D76200AC579F /* textImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBEB29D3D76200AC579F /* textImage.png */; };
+		E8FB94A129F76AA2009243A8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94A029F76AA2009243A8 /* MainTabBarController.swift */; };
+		E8FB94A429F76B17009243A8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94A329F76B17009243A8 /* UIColor+Extension.swift */; };
+		E8FB94A629F76BED009243A8 /* MyPageTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94A529F76BED009243A8 /* MyPageTabController.swift */; };
+		E8FB94A929F76C06009243A8 /* Generate3DTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */; };
+		E8FB94AB29F76C13009243A8 /* MyLibTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */; };
+		E8FB94AD29F77049009243A8 /* Generate3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94AC29F77049009243A8 /* Generate3DView.swift */; };
+		E8FB94B129F770B8009243A8 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94B029F770B8009243A8 /* UIFont+Extension.swift */; };
+		E8FB94BC29F7715A009243A8 /* SUIT-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */; };
+		E8FB94BD29F7715A009243A8 /* SUIT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B429F77158009243A8 /* SUIT-Light.ttf */; };
+		E8FB94BE29F7715A009243A8 /* SUIT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */; };
+		E8FB94BF29F7715A009243A8 /* SUIT-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */; };
+		E8FB94C029F7715A009243A8 /* SUIT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */; };
+		E8FB94C129F7715A009243A8 /* SUIT-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */; };
+		E8FB94C229F7715A009243A8 /* SUIT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */; };
+		E8FB94C329F7715A009243A8 /* SUIT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */; };
+		E8FB94C429F7715A009243A8 /* SUIT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */; };
+		E8FB94C629F7721D009243A8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94C529F7721D009243A8 /* UIView+Extension.swift */; };
+		E8FB94C929F77335009243A8 /* UIPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94C829F77335009243A8 /* UIPaddingLabel.swift */; };
+		E8FB94CB29F7767C009243A8 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94CA29F7767C009243A8 /* UILabel+Extension.swift */; };
+		E8FB94CD29F77A1D009243A8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94CC29F77A1D009243A8 /* UIButton+Extension.swift */; };
+		E8FB94CF29F7874F009243A8 /* MyLibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94CE29F7874F009243A8 /* MyLibView.swift */; };
+		E8FB94D229F78AD4009243A8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D129F78AD4009243A8 /* Book.swift */; };
+		E8FB94D429F78C7E009243A8 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D329F78C7E009243A8 /* UIImageView+Extension.swift */; };
+		E8FB94D629F78D0F009243A8 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */; };
+		E8FB94D829F78D65009243A8 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D729F78D65009243A8 /* UINavigationController+Extension.swift */; };
+		E8FB94DA29F78DA8009243A8 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */; };
+		E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */; };
+		E8FB94E029F79C9B009243A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +55,40 @@
 		E8FADBCF29D3D69C00AC579F /* GradutaionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradutaionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FADBD229D3D69C00AC579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8FADBD629D3D69C00AC579F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8FADBD929D3D69C00AC579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8FADBDB29D3D69E00AC579F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FADBDE29D3D69E00AC579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8FADBE029D3D69E00AC579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8FADBE729D3D6FA00AC579F /* OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
 		E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestViewController.swift; sourceTree = "<group>"; };
 		E8FADBEB29D3D76200AC579F /* textImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textImage.png; sourceTree = "<group>"; };
+		E8FB94A029F76AA2009243A8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E8FB94A329F76B17009243A8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94A529F76BED009243A8 /* MyPageTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageTabController.swift; sourceTree = "<group>"; };
+		E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate3DTabController.swift; sourceTree = "<group>"; };
+		E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibTabController.swift; sourceTree = "<group>"; };
+		E8FB94AC29F77049009243A8 /* Generate3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate3DView.swift; sourceTree = "<group>"; };
+		E8FB94B029F770B8009243A8 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8FB94B429F77158009243A8 /* SUIT-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Light.ttf"; sourceTree = "<group>"; };
+		E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Heavy.ttf"; sourceTree = "<group>"; };
+		E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.ttf"; sourceTree = "<group>"; };
+		E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.ttf"; sourceTree = "<group>"; };
+		E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Thin.ttf"; sourceTree = "<group>"; };
+		E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.ttf"; sourceTree = "<group>"; };
+		E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.ttf"; sourceTree = "<group>"; };
+		E8FB94C529F7721D009243A8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94C829F77335009243A8 /* UIPaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddingLabel.swift; sourceTree = "<group>"; };
+		E8FB94CA29F7767C009243A8 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94CC29F77A1D009243A8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94CE29F7874F009243A8 /* MyLibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibView.swift; sourceTree = "<group>"; };
+		E8FB94D129F78AD4009243A8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		E8FB94D329F78C7E009243A8 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		E8FB94D729F78D65009243A8 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradutaionProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,7 +124,14 @@
 		E8FADBC629D3D69C00AC579F = {
 			isa = PBXGroup;
 			children = (
+				E8FB94D029F78AC9009243A8 /* Model */,
+				E8FB94C729F77328009243A8 /* Utils */,
+				E8FB94AF29F77088009243A8 /* Networks */,
+				E8FB94AE29F7705B009243A8 /* ViewController */,
+				E8FB94A729F76BF4009243A8 /* View */,
 				E8FADBE629D3D6EB00AC579F /* Module */,
+				E8FB94A229F76B0A009243A8 /* Extensions */,
+				E8FB94B229F770FE009243A8 /* Fonts */,
 				E8FADBD129D3D69C00AC579F /* GradutaionProject */,
 				E8FADBD029D3D69C00AC579F /* Products */,
 				89FDF80BD7B2FDDB263B40F1 /* Pods */,
@@ -93,14 +152,11 @@
 			children = (
 				E8FADBD229D3D69C00AC579F /* AppDelegate.swift */,
 				E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */,
-				E8FADBD629D3D69C00AC579F /* ViewController.swift */,
-				E8FADBD829D3D69C00AC579F /* Main.storyboard */,
 				E8FADBDB29D3D69E00AC579F /* Assets.xcassets */,
 				E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */,
 				E8FADBEB29D3D76200AC579F /* textImage.png */,
 				E8FADBE029D3D69E00AC579F /* Info.plist */,
-				E8FADBE729D3D6FA00AC579F /* OCR.swift */,
-				E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */,
+				E8FB94A029F76AA2009243A8 /* MainTabBarController.swift */,
 			);
 			path = GradutaionProject;
 			sourceTree = "<group>";
@@ -108,10 +164,89 @@
 		E8FADBE629D3D6EB00AC579F /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				E8FADBE729D3D6FA00AC579F /* OCR.swift */,
+				E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E8FB94A229F76B0A009243A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94A329F76B17009243A8 /* UIColor+Extension.swift */,
+				E8FB94B029F770B8009243A8 /* UIFont+Extension.swift */,
+				E8FB94C529F7721D009243A8 /* UIView+Extension.swift */,
+				E8FB94CA29F7767C009243A8 /* UILabel+Extension.swift */,
+				E8FB94CC29F77A1D009243A8 /* UIButton+Extension.swift */,
+				E8FB94D329F78C7E009243A8 /* UIImageView+Extension.swift */,
+				E8FB94D729F78D65009243A8 /* UINavigationController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8FB94A729F76BF4009243A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94AC29F77049009243A8 /* Generate3DView.swift */,
+				E8FB94CE29F7874F009243A8 /* MyLibView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8FB94AE29F7705B009243A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94A529F76BED009243A8 /* MyPageTabController.swift */,
+				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
+				E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */,
+				E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */,
+				E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */,
+				E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */,
+				E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E8FB94AF29F77088009243A8 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
 				E882E97F29E594EC00B5FAE5 /* Network.swift */,
 				E882E98129E5976900B5FAE5 /* DataClass.swift */,
 			);
-			path = Module;
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		E8FB94B229F770FE009243A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */,
+				E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */,
+				E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */,
+				E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */,
+				E8FB94B429F77158009243A8 /* SUIT-Light.ttf */,
+				E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */,
+				E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */,
+				E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */,
+				E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */,
+			);
+			name = Fonts;
+			path = "럐ㅜㅅㄴ";
+			sourceTree = "<group>";
+		};
+		E8FB94C729F77328009243A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94C829F77335009243A8 /* UIPaddingLabel.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8FB94D029F78AC9009243A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94D129F78AD4009243A8 /* Book.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +309,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB94C329F7715A009243A8 /* SUIT-Bold.ttf in Resources */,
+				E8FB94C129F7715A009243A8 /* SUIT-SemiBold.ttf in Resources */,
+				E8FB94C029F7715A009243A8 /* SUIT-Regular.ttf in Resources */,
+				E8FB94C229F7715A009243A8 /* SUIT-Thin.ttf in Resources */,
 				E8FADBEC29D3D76200AC579F /* textImage.png in Resources */,
+				E8FB94BE29F7715A009243A8 /* SUIT-Heavy.ttf in Resources */,
+				E8FB94C429F7715A009243A8 /* SUIT-Medium.ttf in Resources */,
+				E8FB94BD29F7715A009243A8 /* SUIT-Light.ttf in Resources */,
+				E8FB94BC29F7715A009243A8 /* SUIT-ExtraBold.ttf in Resources */,
+				E8FB94BF29F7715A009243A8 /* SUIT-ExtraLight.ttf in Resources */,
 				E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */,
 				E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */,
-				E8FADBDA29D3D69C00AC579F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,26 +374,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */,
-				E8FADBD729D3D69C00AC579F /* ViewController.swift in Sources */,
+				E8FB94A629F76BED009243A8 /* MyPageTabController.swift in Sources */,
+				E8FB94CF29F7874F009243A8 /* MyLibView.swift in Sources */,
+				E8FB94A129F76AA2009243A8 /* MainTabBarController.swift in Sources */,
+				E8FB94CD29F77A1D009243A8 /* UIButton+Extension.swift in Sources */,
+				E8FB94A429F76B17009243A8 /* UIColor+Extension.swift in Sources */,
 				E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */,
 				E882E98029E594EC00B5FAE5 /* Network.swift in Sources */,
+				E8FB94A929F76C06009243A8 /* Generate3DTabController.swift in Sources */,
+				E8FB94C929F77335009243A8 /* UIPaddingLabel.swift in Sources */,
+				E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */,
+				E8FB94DA29F78DA8009243A8 /* BookDetailViewController.swift in Sources */,
+				E8FB94D429F78C7E009243A8 /* UIImageView+Extension.swift in Sources */,
+				E8FB94E029F79C9B009243A8 /* LoginViewController.swift in Sources */,
+				E8FB94CB29F7767C009243A8 /* UILabel+Extension.swift in Sources */,
+				E8FB94D229F78AD4009243A8 /* Book.swift in Sources */,
+				E8FB94D829F78D65009243A8 /* UINavigationController+Extension.swift in Sources */,
 				E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */,
+				E8FB94C629F7721D009243A8 /* UIView+Extension.swift in Sources */,
+				E8FB94D629F78D0F009243A8 /* AddBookViewController.swift in Sources */,
+				E8FB94AD29F77049009243A8 /* Generate3DView.swift in Sources */,
 				E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */,
+				E8FB94B129F770B8009243A8 /* UIFont+Extension.swift in Sources */,
 				E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */,
+				E8FB94AB29F76C13009243A8 /* MyLibTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E8FADBD829D3D69C00AC579F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8FADBD929D3D69C00AC579F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -387,11 +540,12 @@
 				DEVELOPMENT_TEAM = 9VUV5CNU2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GradutaionProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dream Forge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,11 +570,12 @@
 				DEVELOPMENT_TEAM = 9VUV5CNU2X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GradutaionProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dream Forge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

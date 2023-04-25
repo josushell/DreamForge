@@ -1,14 +1,13 @@
 //
-//  ViewController.swift
+//  AddBookViewController.swift
 //  GradutaionProject
 //
-//  Created by JOSUEYEON on 2023/03/29.
+//  Created by JOSUEYEON on 2023/04/25.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class AddBookViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,7 +17,4 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
