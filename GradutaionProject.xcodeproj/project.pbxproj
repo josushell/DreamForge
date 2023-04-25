@@ -24,15 +24,6 @@
 		E8FB94AB29F76C13009243A8 /* MyLibTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */; };
 		E8FB94AD29F77049009243A8 /* Generate3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94AC29F77049009243A8 /* Generate3DView.swift */; };
 		E8FB94B129F770B8009243A8 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94B029F770B8009243A8 /* UIFont+Extension.swift */; };
-		E8FB94BC29F7715A009243A8 /* SUIT-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */; };
-		E8FB94BD29F7715A009243A8 /* SUIT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B429F77158009243A8 /* SUIT-Light.ttf */; };
-		E8FB94BE29F7715A009243A8 /* SUIT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */; };
-		E8FB94BF29F7715A009243A8 /* SUIT-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */; };
-		E8FB94C029F7715A009243A8 /* SUIT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */; };
-		E8FB94C129F7715A009243A8 /* SUIT-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */; };
-		E8FB94C229F7715A009243A8 /* SUIT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */; };
-		E8FB94C329F7715A009243A8 /* SUIT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */; };
-		E8FB94C429F7715A009243A8 /* SUIT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */; };
 		E8FB94C629F7721D009243A8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94C529F7721D009243A8 /* UIView+Extension.swift */; };
 		E8FB94C929F77335009243A8 /* UIPaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94C829F77335009243A8 /* UIPaddingLabel.swift */; };
 		E8FB94CB29F7767C009243A8 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94CA29F7767C009243A8 /* UILabel+Extension.swift */; };
@@ -45,6 +36,7 @@
 		E8FB94DA29F78DA8009243A8 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */; };
 		E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */; };
 		E8FB94E029F79C9B009243A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */; };
+		E8FB94E429F7A187009243A8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94E329F7A187009243A8 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,15 +60,6 @@
 		E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibTabController.swift; sourceTree = "<group>"; };
 		E8FB94AC29F77049009243A8 /* Generate3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate3DView.swift; sourceTree = "<group>"; };
 		E8FB94B029F770B8009243A8 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.ttf"; sourceTree = "<group>"; };
-		E8FB94B429F77158009243A8 /* SUIT-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Light.ttf"; sourceTree = "<group>"; };
-		E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Heavy.ttf"; sourceTree = "<group>"; };
-		E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraLight.ttf"; sourceTree = "<group>"; };
-		E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.ttf"; sourceTree = "<group>"; };
-		E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.ttf"; sourceTree = "<group>"; };
-		E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Thin.ttf"; sourceTree = "<group>"; };
-		E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.ttf"; sourceTree = "<group>"; };
-		E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.ttf"; sourceTree = "<group>"; };
 		E8FB94C529F7721D009243A8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		E8FB94C829F77335009243A8 /* UIPaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddingLabel.swift; sourceTree = "<group>"; };
 		E8FB94CA29F7767C009243A8 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
@@ -89,6 +72,7 @@
 		E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8FB94E329F7A187009243A8 /* Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fonts; sourceTree = SOURCE_ROOT; };
 		F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradutaionProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +108,7 @@
 		E8FADBC629D3D69C00AC579F = {
 			isa = PBXGroup;
 			children = (
+				E8FB94E329F7A187009243A8 /* Fonts */,
 				E8FB94D029F78AC9009243A8 /* Model */,
 				E8FB94C729F77328009243A8 /* Utils */,
 				E8FB94AF29F77088009243A8 /* Networks */,
@@ -131,7 +116,6 @@
 				E8FB94A729F76BF4009243A8 /* View */,
 				E8FADBE629D3D6EB00AC579F /* Module */,
 				E8FB94A229F76B0A009243A8 /* Extensions */,
-				E8FB94B229F770FE009243A8 /* Fonts */,
 				E8FADBD129D3D69C00AC579F /* GradutaionProject */,
 				E8FADBD029D3D69C00AC579F /* Products */,
 				89FDF80BD7B2FDDB263B40F1 /* Pods */,
@@ -196,11 +180,9 @@
 		E8FB94AE29F7705B009243A8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E8FB94E229F7A148009243A8 /* Generate3D */,
+				E8FB94E129F7A134009243A8 /* MyLib */,
 				E8FB94A529F76BED009243A8 /* MyPageTabController.swift */,
-				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
-				E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */,
-				E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */,
-				E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */,
 				E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */,
 				E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */,
 			);
@@ -214,23 +196,6 @@
 				E882E98129E5976900B5FAE5 /* DataClass.swift */,
 			);
 			path = Networks;
-			sourceTree = "<group>";
-		};
-		E8FB94B229F770FE009243A8 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				E8FB94BA29F77159009243A8 /* SUIT-Bold.ttf */,
-				E8FB94B329F77158009243A8 /* SUIT-ExtraBold.ttf */,
-				E8FB94B629F77159009243A8 /* SUIT-ExtraLight.ttf */,
-				E8FB94B529F77159009243A8 /* SUIT-Heavy.ttf */,
-				E8FB94B429F77158009243A8 /* SUIT-Light.ttf */,
-				E8FB94BB29F7715A009243A8 /* SUIT-Medium.ttf */,
-				E8FB94B729F77159009243A8 /* SUIT-Regular.ttf */,
-				E8FB94B829F77159009243A8 /* SUIT-SemiBold.ttf */,
-				E8FB94B929F77159009243A8 /* SUIT-Thin.ttf */,
-			);
-			name = Fonts;
-			path = "럐ㅜㅅㄴ";
 			sourceTree = "<group>";
 		};
 		E8FB94C729F77328009243A8 /* Utils */ = {
@@ -247,6 +212,24 @@
 				E8FB94D129F78AD4009243A8 /* Book.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E8FB94E129F7A134009243A8 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */,
+				E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */,
+				E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */,
+			);
+			path = MyLib;
+			sourceTree = "<group>";
+		};
+		E8FB94E229F7A148009243A8 /* Generate3D */ = {
+			isa = PBXGroup;
+			children = (
+				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
+			);
+			path = Generate3D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,18 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FB94C329F7715A009243A8 /* SUIT-Bold.ttf in Resources */,
-				E8FB94C129F7715A009243A8 /* SUIT-SemiBold.ttf in Resources */,
-				E8FB94C029F7715A009243A8 /* SUIT-Regular.ttf in Resources */,
-				E8FB94C229F7715A009243A8 /* SUIT-Thin.ttf in Resources */,
 				E8FADBEC29D3D76200AC579F /* textImage.png in Resources */,
-				E8FB94BE29F7715A009243A8 /* SUIT-Heavy.ttf in Resources */,
-				E8FB94C429F7715A009243A8 /* SUIT-Medium.ttf in Resources */,
-				E8FB94BD29F7715A009243A8 /* SUIT-Light.ttf in Resources */,
-				E8FB94BC29F7715A009243A8 /* SUIT-ExtraBold.ttf in Resources */,
-				E8FB94BF29F7715A009243A8 /* SUIT-ExtraLight.ttf in Resources */,
 				E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */,
 				E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */,
+				E8FB94E429F7A187009243A8 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
