@@ -1,17 +1,20 @@
 //
-//  BookDetailViewController.swift
+//  ConfirmViewController.swift
 //  GradutaionProject
 //
-//  Created by JOSUEYEON on 2023/04/25.
+//  Created by JOSUEYEON on 2023/04/26.
 //
 
 import UIKit
 import Alamofire
 import SWXMLHash
 
-class BookDetailViewController: UIViewController {
-    let bookDetailView = BookDetailView()
+class ConfirmViewController: UIViewController {
+    let confirmView = ConfirmView()
     var isbn: String = ""
+    var bookTitle: String = ""
+    var bookAuthor: String = ""
+    var BookImage: String = ""
     
     init(bookIsbn: String) {
         self.isbn = bookIsbn
@@ -26,12 +29,22 @@ class BookDetailViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
-        bookDetailView.initViews(view: self.view)
+        confirmView.initViews(superView: self.view)
         self.navigationItem.title = ""
         self.navigationController?.navigationBar.backItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .main
         
+        self.navigationController?.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "등록", style: .plain, target: self, action: #selector(didTapConfirmBtn))
+        
         getBookDetailInfo(isbn: self.isbn)
+    }
+    
+    @objc func didTapConfirmBtn(_ sender: UIBarButtonItem) {
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.bookItems.append(Book(isbn: self.isbn, title: self.bookTitle, author: self.bookAuthor, image: self.BookImage))
+        }
+        
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
     func getBookDetailInfo(isbn: String) {
@@ -50,15 +63,26 @@ class BookDetailViewController: UIViewController {
                 let xml = XMLHash.parse(data)
                 
                 if let title = xml["rss"]["channel"]["item"]["title"].element?.text {
-                    self?.bookDetailView.label_title.text = title
+                    self?.confirmView.titleLabel.text = title
+                    self?.bookTitle = title
                 }
                 
                 if let author = xml["rss"]["channel"]["item"]["author"].element?.text {
-                    self?.bookDetailView.label_author.text = author
+                    self?.confirmView.authorLabel.text = author
+                    self?.bookAuthor = author
+                }
+                
+                if let publisher = xml["rss"]["channel"]["item"]["publisher"].element?.text {
+                    self?.confirmView.publisherLabel.text = "출판사  \(publisher)"
+                }
+                
+                if let pubdate = xml["rss"]["channel"]["item"]["pubdate"].element?.text {
+                    self?.confirmView.publisherLabel.text?.append("출판일  \(pubdate)")
                 }
                 
                 if let image = xml["rss"]["channel"]["item"]["image"].element?.text {
-                    self?.bookDetailView.img_book.setImageUrl(url: image)
+                    self?.confirmView.imageView.setImageUrl(url: image)
+                    self?.BookImage = image
                 }
                 
             default:

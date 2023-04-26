@@ -73,9 +73,8 @@ extension AddBookViewController {
     }
     
     func showConfirmBook(isbn: String) {
-        let confirmView = ConfirmBookViewController()
-        confirmView.isbnValue = isbn
-        self.navigationController?.pushViewController(confirmView, animated: true)
+        let vc = ConfirmViewController(bookIsbn: isbn)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -93,7 +92,7 @@ extension AddBookViewController: BarcodeReaderViewDelegate {
                 self.view.makeToast(message, duration: 2, position: .bottom)
                 break
             }
-//            showConfirmBook(isbn: code)
+            showConfirmBook(isbn: code)
             
         default:
             self.view.makeToast(message, duration: 2, position: .bottom)

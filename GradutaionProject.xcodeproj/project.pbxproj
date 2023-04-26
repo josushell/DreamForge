@@ -39,6 +39,8 @@
 		E8FB94E429F7A187009243A8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94E329F7A187009243A8 /* Fonts */; };
 		E8FB94E629F8C195009243A8 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94E529F8C195009243A8 /* BookDetailView.swift */; };
 		E8FB94E829F8DB91009243A8 /* BarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94E729F8DB91009243A8 /* BarcodeView.swift */; };
+		E8FB94EA29F8DC7D009243A8 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94E929F8DC7D009243A8 /* ConfirmViewController.swift */; };
+		E8FB94EC29F8DC84009243A8 /* ConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94EB29F8DC84009243A8 /* ConfirmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +79,8 @@
 		E8FB94E329F7A187009243A8 /* Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fonts; sourceTree = SOURCE_ROOT; };
 		E8FB94E529F8C195009243A8 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		E8FB94E729F8DB91009243A8 /* BarcodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeView.swift; sourceTree = "<group>"; };
+		E8FB94E929F8DC7D009243A8 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		E8FB94EB29F8DC84009243A8 /* ConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmView.swift; sourceTree = "<group>"; };
 		F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradutaionProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -179,6 +183,7 @@
 				E8FB94CE29F7874F009243A8 /* MyLibView.swift */,
 				E8FB94E529F8C195009243A8 /* BookDetailView.swift */,
 				E8FB94E729F8DB91009243A8 /* BarcodeView.swift */,
+				E8FB94EB29F8DC84009243A8 /* ConfirmView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				E8FB94D529F78D0F009243A8 /* AddBookViewController.swift */,
 				E8FB94D929F78DA8009243A8 /* BookDetailViewController.swift */,
 				E8FB94AA29F76C13009243A8 /* MyLibTabController.swift */,
+				E8FB94E929F8DC7D009243A8 /* ConfirmViewController.swift */,
 			);
 			path = MyLib;
 			sourceTree = "<group>";
@@ -373,12 +379,14 @@
 				E8FB94D229F78AD4009243A8 /* Book.swift in Sources */,
 				E8FB94D829F78D65009243A8 /* UINavigationController+Extension.swift in Sources */,
 				E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */,
+				E8FB94EA29F8DC7D009243A8 /* ConfirmViewController.swift in Sources */,
 				E8FB94C629F7721D009243A8 /* UIView+Extension.swift in Sources */,
 				E8FB94D629F78D0F009243A8 /* AddBookViewController.swift in Sources */,
 				E8FB94AD29F77049009243A8 /* Generate3DView.swift in Sources */,
 				E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */,
 				E8FB94B129F770B8009243A8 /* UIFont+Extension.swift in Sources */,
 				E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */,
+				E8FB94EC29F8DC84009243A8 /* ConfirmView.swift in Sources */,
 				E8FB94E629F8C195009243A8 /* BookDetailView.swift in Sources */,
 				E8FB94AB29F76C13009243A8 /* MyLibTabController.swift in Sources */,
 			);
