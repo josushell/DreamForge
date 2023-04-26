@@ -145,30 +145,30 @@ class Generate3DView {
         label_history1.snp.makeConstraints { make in
             make.top.leading.equalToSuperview()
         }
-        label_history1.setTxtAttribute("기차역", size: 12, weight: .w600, txtColor: .white)
+        label_history1.setTxtAttribute("기차역", size: 13, weight: .w600, txtColor: .white)
         
         label_history2.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.leading.equalTo(label_history1.snp.trailing).offset(16)
         }
-        label_history2.setTxtAttribute("열차", size: 12, weight: .w600, txtColor: .white)
+        label_history2.setTxtAttribute("열차", size: 13, weight: .w600, txtColor: .white)
         
         label_history3.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.leading.equalTo(label_history2.snp.trailing).offset(16)
         }
-        label_history3.setTxtAttribute("노란 자전거", size: 12, weight: .w600, txtColor: .white)
+        label_history3.setTxtAttribute("노란 자전거", size: 13, weight: .w600, txtColor: .white)
         
         label_history4.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.leading.equalTo(label_history3.snp.trailing).offset(16)
         }
-        label_history4.setTxtAttribute("해바라기", size: 12, weight: .w600, txtColor: .white)
+        label_history4.setTxtAttribute("해바라기", size: 13, weight: .w600, txtColor: .white)
         
         label_history5.snp.makeConstraints { make in
             make.top.equalTo(label_history1.snp.bottom).offset(17)
             make.leading.equalToSuperview()
         }
-        label_history5.setTxtAttribute("검은 고양이", size: 12, weight: .w600, txtColor: .white)
+        label_history5.setTxtAttribute("검은 고양이", size: 13, weight: .w600, txtColor: .white)
     }
 }

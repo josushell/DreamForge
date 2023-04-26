@@ -10,6 +10,7 @@ target 'GradutaionProject' do
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
   pod 'SWXMLHash', '~> 7.0.0'
+  pod 'Toast-Swift', '~> 5.0.1'
   # Pods for GradutaionProject
 
 end

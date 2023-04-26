@@ -8,6 +8,7 @@ PODS:
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
   - SWXMLHash (7.0.0)
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - RxSwift (= 6.5.0)
   - SnapKit (~> 5.6.0)
   - SWXMLHash (~> 7.0.0)
+  - Toast-Swift (~> 5.0.1)
 
 SPEC REPOS:
   trunk:
@@ -24,6 +26,7 @@ SPEC REPOS:
     - RxSwift
     - SnapKit
     - SWXMLHash
+    - Toast-Swift
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
@@ -32,7 +35,8 @@ SPEC CHECKSUMS:
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SWXMLHash: cf8682ebf12f124e77554d6a5f9170830626d99e
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 92bb56f26149a200da46fa41418c13057af5f73b
+PODFILE CHECKSUM: cce67e8b71f61c3fef1a1f89e24648cf6092ada6
 
 COCOAPODS: 1.11.3
