@@ -9,6 +9,7 @@ target 'GradutaionProject' do
   pod 'Alamofire'
   pod 'RxSwift', '6.5.0'
   pod 'RxCocoa', '6.5.0'
+  pod 'SWXMLHash', '~> 7.0.0'
   # Pods for GradutaionProject
 
 end

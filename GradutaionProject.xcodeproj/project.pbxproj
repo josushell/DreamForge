@@ -37,6 +37,7 @@
 		E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */; };
 		E8FB94E029F79C9B009243A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */; };
 		E8FB94E429F7A187009243A8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = E8FB94E329F7A187009243A8 /* Fonts */; };
+		E8FB94E629F8C195009243A8 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94E529F8C195009243A8 /* BookDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		E8FB94DD29F79A2C009243A8 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		E8FB94DF29F79C9B009243A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E8FB94E329F7A187009243A8 /* Fonts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fonts; sourceTree = SOURCE_ROOT; };
+		E8FB94E529F8C195009243A8 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradutaionProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 			children = (
 				E8FB94AC29F77049009243A8 /* Generate3DView.swift */,
 				E8FB94CE29F7874F009243A8 /* MyLibView.swift */,
+				E8FB94E529F8C195009243A8 /* BookDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */,
 				E8FB94B129F770B8009243A8 /* UIFont+Extension.swift in Sources */,
 				E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */,
+				E8FB94E629F8C195009243A8 /* BookDetailView.swift in Sources */,
 				E8FB94AB29F76C13009243A8 /* MyLibTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
