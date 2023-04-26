@@ -31,11 +31,12 @@ class ConfirmViewController: UIViewController {
         
         confirmView.initViews(superView: self.view)
         self.navigationItem.title = ""
-        self.navigationController?.navigationBar.backItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .main
         
-        self.navigationController?.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "등록", style: .plain, target: self, action: #selector(didTapConfirmBtn))
-        
+        let registerBarBtn = UIBarButtonItem(title: "등록", style: .plain, target: self, action: #selector(didTapConfirmBtn))
+        registerBarBtn.tintColor = .darkMain
+        self.navigationItem.rightBarButtonItem = registerBarBtn
+         
         getBookDetailInfo(isbn: self.isbn)
     }
     
@@ -77,7 +78,7 @@ class ConfirmViewController: UIViewController {
                 }
                 
                 if let pubdate = xml["rss"]["channel"]["item"]["pubdate"].element?.text {
-                    self?.confirmView.publisherLabel.text?.append("출판일  \(pubdate)")
+                    self?.confirmView.publisherLabel.text?.append("  출판일  \(pubdate)")
                 }
                 
                 if let image = xml["rss"]["channel"]["item"]["image"].element?.text {

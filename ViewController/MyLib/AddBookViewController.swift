@@ -22,7 +22,7 @@ class AddBookViewController: UIViewController {
         readerView.layer.masksToBounds = true
         
         self.readerView.delegate = self
-        self.navigationItem.title = "바코드 인식"
+        self.navigationController?.title = "바코드 인식"
         self.navigationController?.navigationBar.backItem?.title = ""
         self.navigationController?.navigationBar.tintColor = .main
         if !self.readerView.isRunning {

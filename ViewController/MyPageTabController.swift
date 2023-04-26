@@ -14,6 +14,7 @@ class MyPageTabController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         setUpBase()
     }
     
@@ -30,6 +31,7 @@ class MyPageTabController: UIViewController {
         self.tableView.dataSource = self
         self.registerCells()
         self.tableView.separatorStyle = .none
+        self.tableView.backgroundColor = .white
         
         self.tableView.snp.makeConstraints { make in
             make.top.equalTo(label_title.snp.bottom).offset(11)
@@ -123,6 +125,7 @@ class ProfileCell: UITableViewCell {
      
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: "ProfileCell")
+        self.backgroundColor = .white
         setBaseView()
     }
 
@@ -194,6 +197,7 @@ class MyPageCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: "MyPageCell")
+        self.backgroundColor = .white
         setBaseView()
     }
     

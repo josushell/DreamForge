@@ -30,6 +30,12 @@ class MyLibTabController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            self.items = appDelegate.bookItems
+        }
+        self.myLibView.layout_books.reloadData()
+        print(self.items)
         self.navigationController?.isNavigationBarHidden = true
     }
     
