@@ -86,6 +86,10 @@ class ConfirmViewController: UIViewController {
                     self?.BookImage = image
                 }
                 
+                if let description = xml["res"]["channel"]["item"]["description"].element?.text {
+                    self?.confirmView.descriptionTextView.text = description
+                }
+                
             default:
                 print("failed to parsing xml")
             }
