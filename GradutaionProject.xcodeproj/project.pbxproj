@@ -10,6 +10,8 @@
 		136809F4A40FA2177F34D5F9 /* Pods_GradutaionProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */; };
 		E882E98029E594EC00B5FAE5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E97F29E594EC00B5FAE5 /* Network.swift */; };
 		E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E98129E5976900B5FAE5 /* DataClass.swift */; };
+		E8ACD7932A16010E00A6F9DD /* EditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7922A16010E00A6F9DD /* EditTextView.swift */; };
+		E8ACD7952A16012000A6F9DD /* EditTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */; };
 		E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD229D3D69C00AC579F /* AppDelegate.swift */; };
 		E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */; };
 		E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDB29D3D69E00AC579F /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 		7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.debug.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E882E97F29E594EC00B5FAE5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E882E98129E5976900B5FAE5 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
+		E8ACD7922A16010E00A6F9DD /* EditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextView.swift; sourceTree = "<group>"; };
+		E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextViewController.swift; sourceTree = "<group>"; };
 		E8FADBCF29D3D69C00AC579F /* GradutaionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradutaionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FADBD229D3D69C00AC579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 				E8FB94E529F8C195009243A8 /* BookDetailView.swift */,
 				E8FB94E729F8DB91009243A8 /* BarcodeView.swift */,
 				E8FB94EB29F8DC84009243A8 /* ConfirmView.swift */,
+				E8ACD7922A16010E00A6F9DD /* EditTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
+				E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */,
 			);
 			path = Generate3D;
 			sourceTree = "<group>";
@@ -361,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */,
+				E8ACD7952A16012000A6F9DD /* EditTextViewController.swift in Sources */,
 				E8FB94A629F76BED009243A8 /* MyPageTabController.swift in Sources */,
 				E8FB94CF29F7874F009243A8 /* MyLibView.swift in Sources */,
 				E8FB94A129F76AA2009243A8 /* MainTabBarController.swift in Sources */,
@@ -369,6 +376,7 @@
 				E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */,
 				E882E98029E594EC00B5FAE5 /* Network.swift in Sources */,
 				E8FB94A929F76C06009243A8 /* Generate3DTabController.swift in Sources */,
+				E8ACD7932A16010E00A6F9DD /* EditTextView.swift in Sources */,
 				E8FB94C929F77335009243A8 /* UIPaddingLabel.swift in Sources */,
 				E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */,
 				E8FB94DA29F78DA8009243A8 /* BookDetailViewController.swift in Sources */,

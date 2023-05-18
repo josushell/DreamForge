@@ -18,7 +18,7 @@ class UIPaddingLabel: UILabel {
     required init?(coder: NSCoder) {
         fatalError("not implement required init?(coder: NSCoder)")
     }
-
+    
     convenience init(radius: CGFloat = 8, color: UIColor = .darkMain, verticalInset: CGFloat = 4.0, horizontalInset: CGFloat = 10.0) {
         self.init(frame: .zero)
         
