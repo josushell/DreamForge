@@ -11,6 +11,7 @@ target 'GradutaionProject' do
   pod 'RxCocoa', '6.5.0'
   pod 'SWXMLHash', '~> 7.0.0'
   pod 'Toast-Swift', '~> 5.0.1'
+  pod 'lottie-ios'
   # Pods for GradutaionProject
 
 end
