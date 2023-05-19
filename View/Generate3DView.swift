@@ -89,7 +89,7 @@ class Generate3DView {
         tf_search.textColor = .textGray
         tf_search.font = .suit(size: 14, weight: .w500)
         tf_search.addSubview(btn_search)
-        tf_search.returnKeyType = .done
+        tf_search.returnKeyType = .search
         btn_search.becomeFirstResponder()
         
         btn_search.snp.makeConstraints { make in

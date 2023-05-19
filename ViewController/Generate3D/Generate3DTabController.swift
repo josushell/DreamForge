@@ -7,6 +7,7 @@
 
 import UIKit
 import RxCocoa
+import Toast_Swift
 
 class Generate3DTabController: UIViewController {
     let generate3DView = Generate3DView()
@@ -39,7 +40,7 @@ class Generate3DTabController: UIViewController {
 // MARK: - Event Delegate
 extension Generate3DTabController: UITextFieldDelegate {
     @objc func didTapSearchBtn(_ sender: UIButton) {
-        print("search")
+        self.searchAndPresent()
     }
     
     @objc func didTapCameraBtn(_ sender: UIButton) {
@@ -53,5 +54,18 @@ extension Generate3DTabController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.searchAndPresent()
+    }
+    
+    private func searchAndPresent() {
+        guard self.generate3DView.tf_search.hasText, let keyword = self.generate3DView.tf_search.text else {
+            self.view.makeToast("키워드를 입력해주세요", duration: 2, position: .center)
+            return
+        }
+        
+        self.navigationController?.pushViewController(EditTextViewController(key: keyword), animated: true)
     }
 }
