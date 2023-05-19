@@ -43,7 +43,7 @@ extension Generate3DTabController: UITextFieldDelegate {
     }
     
     @objc func didTapCameraBtn(_ sender: UIButton) {
-        print("camera")
+        self.navigationController?.pushViewController(EditTextViewController(key: "a red bicycle"), animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

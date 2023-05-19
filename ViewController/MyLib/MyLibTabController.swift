@@ -35,7 +35,6 @@ class MyLibTabController: UIViewController {
             self.items = appDelegate.bookItems
         }
         self.myLibView.layout_books.reloadData()
-        print(self.items)
         self.navigationController?.isNavigationBarHidden = true
     }
     
