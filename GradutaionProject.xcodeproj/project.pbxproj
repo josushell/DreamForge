@@ -14,11 +14,13 @@
 		E8ACD7952A16012000A6F9DD /* EditTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */; };
 		E8ACD7992A173F2500A6F9DD /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7982A173F2500A6F9DD /* LoadingViewController.swift */; };
 		E8ACD79D2A17426700A6F9DD /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = E8ACD79C2A17426700A6F9DD /* loading.json */; };
+		E8ACD79F2A17479E00A6F9DD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD79E2A17479E00A6F9DD /* CameraViewController.swift */; };
+		E8ACD7A12A1749C700A6F9DD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7A02A1749C700A6F9DD /* UIViewController+Extension.swift */; };
 		E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD229D3D69C00AC579F /* AppDelegate.swift */; };
 		E8FADBD529D3D69C00AC579F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */; };
 		E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDB29D3D69E00AC579F /* Assets.xcassets */; };
 		E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBDD29D3D69E00AC579F /* LaunchScreen.storyboard */; };
-		E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE729D3D6FA00AC579F /* OCR.swift */; };
+		E8FADBE829D3D6FA00AC579F /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE729D3D6FA00AC579F /* OCRViewController.swift */; };
 		E8FADBEA29D3D72400AC579F /* OCRTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */; };
 		E8FADBEC29D3D76200AC579F /* textImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E8FADBEB29D3D76200AC579F /* textImage.png */; };
 		E8FB94A129F76AA2009243A8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FB94A029F76AA2009243A8 /* MainTabBarController.swift */; };
@@ -56,13 +58,15 @@
 		E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextViewController.swift; sourceTree = "<group>"; };
 		E8ACD7982A173F2500A6F9DD /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		E8ACD79C2A17426700A6F9DD /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		E8ACD79E2A17479E00A6F9DD /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E8ACD7A02A1749C700A6F9DD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		E8FADBCF29D3D69C00AC579F /* GradutaionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradutaionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FADBD229D3D69C00AC579F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FADBD429D3D69C00AC579F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E8FADBDB29D3D69E00AC579F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FADBDE29D3D69E00AC579F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8FADBE029D3D69E00AC579F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8FADBE729D3D6FA00AC579F /* OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		E8FADBE729D3D6FA00AC579F /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
 		E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestViewController.swift; sourceTree = "<group>"; };
 		E8FADBEB29D3D76200AC579F /* textImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textImage.png; sourceTree = "<group>"; };
 		E8FB94A029F76AA2009243A8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -164,7 +168,7 @@
 		E8FADBE629D3D6EB00AC579F /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				E8FADBE729D3D6FA00AC579F /* OCR.swift */,
+				E8FADBE729D3D6FA00AC579F /* OCRViewController.swift */,
 				E8FADBE929D3D72400AC579F /* OCRTestViewController.swift */,
 			);
 			path = Module;
@@ -180,6 +184,7 @@
 				E8FB94CC29F77A1D009243A8 /* UIButton+Extension.swift */,
 				E8FB94D329F78C7E009243A8 /* UIImageView+Extension.swift */,
 				E8FB94D729F78D65009243A8 /* UINavigationController+Extension.swift */,
+				E8ACD7A02A1749C700A6F9DD /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
 				E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */,
 				E8ACD7982A173F2500A6F9DD /* LoadingViewController.swift */,
+				E8ACD79E2A17479E00A6F9DD /* CameraViewController.swift */,
 			);
 			path = Generate3D;
 			sourceTree = "<group>";
@@ -373,10 +379,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FADBE829D3D6FA00AC579F /* OCR.swift in Sources */,
+				E8FADBE829D3D6FA00AC579F /* OCRViewController.swift in Sources */,
 				E8ACD7952A16012000A6F9DD /* EditTextViewController.swift in Sources */,
 				E8FB94A629F76BED009243A8 /* MyPageTabController.swift in Sources */,
 				E8FB94CF29F7874F009243A8 /* MyLibView.swift in Sources */,
+				E8ACD7A12A1749C700A6F9DD /* UIViewController+Extension.swift in Sources */,
 				E8FB94A129F76AA2009243A8 /* MainTabBarController.swift in Sources */,
 				E8FB94CD29F77A1D009243A8 /* UIButton+Extension.swift in Sources */,
 				E8FB94A429F76B17009243A8 /* UIColor+Extension.swift in Sources */,
@@ -384,6 +391,7 @@
 				E882E98029E594EC00B5FAE5 /* Network.swift in Sources */,
 				E8FB94A929F76C06009243A8 /* Generate3DTabController.swift in Sources */,
 				E8ACD7932A16010E00A6F9DD /* EditTextView.swift in Sources */,
+				E8ACD79F2A17479E00A6F9DD /* CameraViewController.swift in Sources */,
 				E8FB94C929F77335009243A8 /* UIPaddingLabel.swift in Sources */,
 				E8FB94DE29F79A2C009243A8 /* TutorialViewController.swift in Sources */,
 				E8FB94DA29F78DA8009243A8 /* BookDetailViewController.swift in Sources */,

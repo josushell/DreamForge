@@ -1,16 +1,15 @@
 //
-//  OCR.swift
+//  OCRViewController.swift
 //  GradutaionProject
 //
 //  Created by JOSUEYEON on 2023/03/29.
 //
 
-import Foundation
+import UIKit
 import Vision
 import VisionKit
 
 class VisionViewController: UIViewController{
-    
     private let label: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
@@ -20,10 +19,18 @@ class VisionViewController: UIViewController{
     
     private let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "textImage")
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
+    
+    init(img: UIImage?) {
+        self.imageView.image = img
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +38,6 @@ class VisionViewController: UIViewController{
         view.addSubview(imageView)
         
         recognizeText(image: imageView.image)
-        
-        print("VisionViewController")
     }
     
     override func viewDidLayoutSubviews() {
