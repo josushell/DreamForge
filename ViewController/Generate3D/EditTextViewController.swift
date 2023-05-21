@@ -9,11 +9,21 @@ import UIKit
 
 class EditTextViewController: UIViewController {
     let editTextView = EditTextView()
-    let keyData: String
+    var keyData: String
     
     init(key: String) {
         self.keyData = key
         super.init(nibName: nil, bundle: nil)
+    }
+    
+    init(image: UIImage) {
+        let ocr = OCR()
+        self.keyData = ""
+        super.init(nibName: nil, bundle: nil)
+        
+        ocr.recognizeText(image: image, completion: { [weak self] result in
+            self?.keyData = result
+        })
     }
     
     required init?(coder: NSCoder) {
@@ -24,6 +34,10 @@ class EditTextViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         
+        self.setNavigationCustom(title: "")
+        self.navigationItem.hidesBackButton = true
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(didTapBackBtn))
+        
         editTextView.initViews(self.view)
         editTextView.tv_keyword.text = self.keyData
         editTextView.btn_generate.addTarget(self, action: #selector(didTapGenerateBtn), for: .touchUpInside)
@@ -33,9 +47,16 @@ class EditTextViewController: UIViewController {
         self.navigationController?.pushViewControllerTabHidden(LoadingViewController(), animated: true)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    @objc func didTapBackBtn(_ sender: UIBarButtonItem) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
     override func viewWillDisappear(_ animated: Bool) {

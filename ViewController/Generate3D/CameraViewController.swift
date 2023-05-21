@@ -12,17 +12,22 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     let imgPicker = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .clear
         
-        setNavigationCustom(title: "사진 촬영하기")
+        setNavigationCustom(title: "사진 촬영하기", tintColor: .black)
         imgPicker.delegate = self
         imgPicker.sourceType = .camera
         imgPicker.allowsEditing = true
+        
+        self.present(imgPicker, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.present(imgPicker, animated: true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -30,13 +35,14 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        self.imgPicker.dismiss(animated: true)
         
         guard let userPickedImage = info[.originalImage] as? UIImage else {
             fatalError("image nil")
         }
         
-        let ocr = VisionViewController(img: userPickedImage)
-        self.navigationController?.pushViewController(ocr, animated: true)
+        let ocr = EditTextViewController(image: userPickedImage)
+        self.imgPicker.dismiss(animated: true, completion: { [weak self] in
+            self?.navigationController?.pushViewController(ocr, animated: true)
+        })
     }
 }
