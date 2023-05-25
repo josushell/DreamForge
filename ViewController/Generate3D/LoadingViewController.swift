@@ -73,20 +73,10 @@ class LoadingViewController: UIViewController {
     
     private func get3DData(_ keyword: String) {
         print("get 3d data")
-        Network().getObjectData(keyword: keyword)
+        
+        Network().getOpenJourneyModel(keyword: keyword)
             .subscribe(onNext: { [weak self] objectData in
-                
-                var dicData : Dictionary<String, Any> = [String : Any]()
-                      do {
-                          // 딕셔너리에 데이터 저장 실시
-                          dicData = try JSONSerialization.jsonObject(with: Data(objectData.utf8), options: []) as! [String:Any]
-                      } catch {
-                          print(error.localizedDescription)
-                      }
-                
-                print(dicData)
-                
-                let vc = ObjectViewController()
+                let vc = ObjectViewController(img: objectData)
                 self?.navigationController?.pushViewControllerTabHidden(vc, animated: true)
             })
             .disposed(by: disposeBag)

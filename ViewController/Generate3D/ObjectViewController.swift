@@ -11,6 +11,18 @@ import ARKit
 
 class ObjectViewController: UIViewController, ARSCNViewDelegate {
     var sceneView = ARSCNView()
+    let scene = SCNScene()
+    let material = SCNMaterial()
+    var img: UIImage?
+    
+    init(img: UIImage?) {
+        self.img = img
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,17 +35,23 @@ class ObjectViewController: UIViewController, ARSCNViewDelegate {
             make.edges.equalToSuperview()
         }
         
-        // Set the view's delegate
         sceneView.delegate = self
-        
-        // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
-        
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // Set the scene to the view
+        material.diffuse.contents = self.img
         sceneView.scene = scene
+        
+        addObjects(x: 0, y: 0.1, z: -0.5)
+    }
+    
+    private func addObjects(x: Float, y: Float, z: Float) {
+        let box = SCNBox(width: 0.3, height: 0.3, length: 0.2, chamferRadius: 0)
+
+        let node = SCNNode()
+        node.geometry = box
+        node.geometry?.materials = [material]
+        node.position = SCNVector3(x, y, z)
+    
+        scene.rootNode.addChildNode(node)
     }
     
     @objc func didTapBackBtn(_ sender: UIBarButtonItem) {

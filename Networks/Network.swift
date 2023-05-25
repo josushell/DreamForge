@@ -10,6 +10,28 @@ import RxSwift
 import Alamofire
 
 class Network {
+    func getOpenJourneyModel(keyword: String) -> Observable<UIImage?> {
+        return Observable<UIImage?>.create { observer in
+            let url = "https://api-inference.huggingface.co/models/prompthero/openjourney"
+            let param = ["inputs" : keyword]
+            let header : HTTPHeaders = [
+                    "Authorization" : "Bearer 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"
+               ]
+            AF.request(url, method: .post, parameters: param, encoding: URLEncoding.default, headers: header).responseData { response in
+                switch response.result {
+                case .success(let img):
+                    observer.onNext(UIImage(data: img))
+                    observer.onCompleted()
+                case .failure(let e):
+                    print(e)
+                    observer.onError(e)
+                }
+            }
+            
+            return Disposables.create {}
+        }.asObservable()
+    }
+    
     func getObjectData(keyword: String) -> Observable<String> {
         return Observable<String>.create { observer in
             let url = "https://openai-point-e.hf.space/run/predict"
