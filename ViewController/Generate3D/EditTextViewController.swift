@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class EditTextViewController: UIViewController {
     let editTextView = EditTextView()
@@ -44,7 +45,8 @@ class EditTextViewController: UIViewController {
     }
     
     @objc func didTapGenerateBtn(_ sender: UIButton) {
-        self.navigationController?.pushViewControllerTabHidden(LoadingViewController(), animated: true)
+        self.keyData = self.editTextView.tv_keyword.text
+        self.navigationController?.pushViewControllerTabHidden(LoadingViewController(key: self.keyData), animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

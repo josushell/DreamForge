@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		136809F4A40FA2177F34D5F9 /* Pods_GradutaionProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F619F934B396D6CBE795F9B2 /* Pods_GradutaionProject.framework */; };
 		E84B58382A19F0FD0014EA00 /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B58372A19F0FD0014EA00 /* OCR.swift */; };
+		E84B58592A1EE2260014EA00 /* ObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84B58582A1EE2260014EA00 /* ObjectViewController.swift */; };
+		E84B585B2A1EE3360014EA00 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E84B585A2A1EE3360014EA00 /* art.scnassets */; };
 		E882E98029E594EC00B5FAE5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E97F29E594EC00B5FAE5 /* Network.swift */; };
 		E882E98229E5976900B5FAE5 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E882E98129E5976900B5FAE5 /* DataClass.swift */; };
 		E8ACD7932A16010E00A6F9DD /* EditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACD7922A16010E00A6F9DD /* EditTextView.swift */; };
@@ -52,6 +54,8 @@
 		392F8D1E58D347E775928542 /* Pods-GradutaionProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.release.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.release.xcconfig"; sourceTree = "<group>"; };
 		7B4B390CD7F7E843B705CCA6 /* Pods-GradutaionProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradutaionProject.debug.xcconfig"; path = "Target Support Files/Pods-GradutaionProject/Pods-GradutaionProject.debug.xcconfig"; sourceTree = "<group>"; };
 		E84B58372A19F0FD0014EA00 /* OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		E84B58582A1EE2260014EA00 /* ObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewController.swift; sourceTree = "<group>"; };
+		E84B585A2A1EE3360014EA00 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E882E97F29E594EC00B5FAE5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		E882E98129E5976900B5FAE5 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
 		E8ACD7922A16010E00A6F9DD /* EditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextView.swift; sourceTree = "<group>"; };
@@ -250,11 +254,13 @@
 		E8FB94E229F7A148009243A8 /* Generate3D */ = {
 			isa = PBXGroup;
 			children = (
+				E84B585A2A1EE3360014EA00 /* art.scnassets */,
 				E8ACD79C2A17426700A6F9DD /* loading.json */,
 				E8FB94A829F76C06009243A8 /* Generate3DTabController.swift */,
 				E8ACD7942A16012000A6F9DD /* EditTextViewController.swift */,
 				E8ACD7982A173F2500A6F9DD /* LoadingViewController.swift */,
 				E8ACD79E2A17479E00A6F9DD /* CameraViewController.swift */,
+				E84B58582A1EE2260014EA00 /* ObjectViewController.swift */,
 			);
 			path = Generate3D;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FADBEC29D3D76200AC579F /* textImage.png in Resources */,
+				E84B585B2A1EE3360014EA00 /* art.scnassets in Resources */,
 				E8FADBDF29D3D69E00AC579F /* LaunchScreen.storyboard in Resources */,
 				E8FADBDC29D3D69E00AC579F /* Assets.xcassets in Resources */,
 				E8FB94E429F7A187009243A8 /* Fonts in Resources */,
@@ -401,6 +408,7 @@
 				E8FB94D829F78D65009243A8 /* UINavigationController+Extension.swift in Sources */,
 				E8FADBD329D3D69C00AC579F /* AppDelegate.swift in Sources */,
 				E8FB94EA29F8DC7D009243A8 /* ConfirmViewController.swift in Sources */,
+				E84B58592A1EE2260014EA00 /* ObjectViewController.swift in Sources */,
 				E8FB94C629F7721D009243A8 /* UIView+Extension.swift in Sources */,
 				E8FB94D629F78D0F009243A8 /* AddBookViewController.swift in Sources */,
 				E8FB94AD29F77049009243A8 /* Generate3DView.swift in Sources */,

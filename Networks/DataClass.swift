@@ -30,3 +30,17 @@ struct Result: Decodable {
     let srcLangType, tarLangType, translatedText, engineType: String
     let pivot, dict, tarDict: String?
 }
+
+import Foundation
+
+// MARK: - Welcome
+struct ObjectData: Decodable {
+    let data: [PointData]
+    let is_generating: Bool
+    let duration, average_duration: Double
+}
+
+// MARK: - Datum
+struct PointData: Decodable {
+    let type, plot: String
+}

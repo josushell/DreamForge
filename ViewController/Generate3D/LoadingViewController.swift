@@ -6,17 +6,33 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 import Lottie
 
 class LoadingViewController: UIViewController {
     let label_title = UILabel()
     let label_subtitle = UILabel()
     let loadingAnimation = LottieAnimationView(name: "loading")
+    var disposeBag = DisposeBag()
+    
+    let keyData: String
+    
+    init(key: String) {
+        self.keyData = key
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         setBaseView()
+        
+        getEngData()
     }
     
     private func setBaseView() {
@@ -45,6 +61,37 @@ class LoadingViewController: UIViewController {
         loadingAnimation.play()
     }
     
+    private func getEngData() {
+        print("get eng data")
+        Network().translateKoTOEn(text: self.keyData)
+            .subscribe(onNext: { [weak self] translatedData in
+                print(translatedData)
+                self?.get3DData(translatedData)
+            })
+            .disposed(by: disposeBag)
+    }
+    
+    private func get3DData(_ keyword: String) {
+        print("get 3d data")
+        Network().getObjectData(keyword: keyword)
+            .subscribe(onNext: { [weak self] objectData in
+                
+                var dicData : Dictionary<String, Any> = [String : Any]()
+                      do {
+                          // 딕셔너리에 데이터 저장 실시
+                          dicData = try JSONSerialization.jsonObject(with: Data(objectData.utf8), options: []) as! [String:Any]
+                      } catch {
+                          print(error.localizedDescription)
+                      }
+                
+                print(dicData)
+                
+                let vc = ObjectViewController()
+                self?.navigationController?.pushViewControllerTabHidden(vc, animated: true)
+            })
+            .disposed(by: disposeBag)
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = true
@@ -54,6 +101,7 @@ class LoadingViewController: UIViewController {
         super.viewWillDisappear(animated)
         self.navigationController?.isNavigationBarHidden = false
         loadingAnimation.stop()
+        disposeBag = DisposeBag()
     }
 
     override func didReceiveMemoryWarning() {
